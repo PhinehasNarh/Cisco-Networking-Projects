@@ -1,0 +1,27 @@
+Welcome to my Cisco Packet Tracer project for designing a network fit for a telecommunications giant like Vodafone Ghana! This journey takes us through building a cloud-based network with a central office server, cell tower, routers, switches, PCs, phones, and laptops. I set up departments like customer services (handling finance and sales), legal, and operations (network and security), and secured everything with passwords and a firewall.
+
+Here’s how I made it happen:
+
+Step 1: Building the Cloud-Based Network
+I dove right in by crafting a cloud-based network, starting with a router connected to the internet. Then I set up a central office server and linked it to the router. From there, I added switches to the mix, connecting them to both the router and central office server. Finally, I connected PCs, phones, and laptops to the switches, getting the groundwork for the network set.
+
+Step 2: Setting Up the Cell Tower Network
+With the main network set up, I moved on to creating the cell tower network. I added another router and connected it to the internet, then brought in a cell tower, hooking it up to the router. After that, I connected switches to the router and cell tower and set up PCs, phones, and laptops to round out the network’s reach.
+
+Step 3: Establishing Departments
+Now for the departments! I created three departments: customer services (finance and sales), legal, and operations (network and security). Each department got its own subnet, and I carefully assigned IP addresses to each device to keep everything organized.
+
+Step 4: Linking Departments to Networks
+Next up, I connected each department to the right network. Each department got its own switch setup, connecting it seamlessly to the appropriate network. I made sure PCs, phones, and laptops were all connected to their respective switches, bringing the departmental networks to life.
+
+Step 5: Securing with Encryption and Firewall
+Once everything was connected, I tightened security by encrypting all connections with passwords and adding a firewall to the router to keep unauthorized users at bay.
+
+Step 6: Testing the Network
+And finally, it was time for testing! I verified that every department could communicate across the network, that all devices could access the central office server and the internet, and that the security measures were solid and working as expected.
+
+And there you have it! I successfully designed a robust telecommunications network complete with a cloud-based core, cell tower network, and secure connections across customer services, legal, and operations departments—each safeguarded with encryption and firewall protection.
+
+ 
+
+#ph1n3y

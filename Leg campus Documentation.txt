@@ -1,0 +1,27 @@
+Welcome to my Cisco Packet Tracer project on designing a university campus network! In this project, I created a robust setup that includes a main campus router, cloud services with an email server, and a multi-switch system connected to various departments, each with their own VLANs.
+
+Here’s how I put it all together:
+
+Step 1: Setting Up the Main Campus Router
+I started by adding a router to the workspace, linking it to the internet, and creating a VLAN specifically for the router. After assigning the VLAN an IP address, I connected the router to the multi-switch that would serve the departments.
+
+Step 2: Setting Up the Multi-Switch with VLANs
+Next, I added a multi-layer switch to the workspace and linked it to the main campus router. Then, I set up VLANs to segment each department, including admin, HR, finance, health & sciences, business, computer science, the student lab, staff offices, and the IT department. Each VLAN was mapped to specific ports on the multi-switch—for instance, ports 1-5 for the admin department and 6-10 for HR.
+
+Step 3: Connecting Cloud Services with an Email Server
+With the basic structure in place, I brought in cloud services by adding a cloud node connected to the main campus router. I added an email server to the cloud node, linking it to the internet to provide reliable email services for campus communications.
+
+Step 4: Connecting Departments to the Multi-Switch
+Once the VLANs were configured, I connected each department to the multi-switch by adding a switch to each department and linking it to the correct VLAN.
+
+Step 5: Configuring IP Addresses for Each Department
+Each department switch received its own IP address, and I set the main campus router as the default gateway, ensuring a streamlined network path for each department.
+
+Step 6: Testing the Network
+Finally, it was time for testing. I opened the command prompt on a computer within each department’s network and tried pinging other computers. A successful ping confirmed each department was properly connected and that network communication was seamless.
+
+And that’s it—a fully functional university campus network! With a main router, VLAN-enabled multi-switch, email server, and department-specific networks, the setup ensures smooth communication and enhanced security across the campus.
+
+
+
+#ph1n3y

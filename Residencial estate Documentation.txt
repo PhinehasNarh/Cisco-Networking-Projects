@@ -1,0 +1,42 @@
+Welcome to my Cisco Packet Tracer project on designing an "Estate Residence Network"! I set out to create a streamlined network for an estate, with everything from switches and servers to access points and a cell tower, all tailored to support IoT devices, smartphones, and more.
+
+Here’s a look at the process:
+
+1. Starting the Project
+I kicked things off by creating a new project in Cisco Packet Tracer and gave it the name "Estate Residence Network."
+
+2. Adding a Switch
+Next, I dragged a switch from the "Switches and Hubs" category into the workspace and opened up its configuration settings.
+
+3. Securing the Switch
+To keep things secure, I set up an encrypted password for the switch by navigating to the "Security" tab and selecting "Password." After entering a strong password, I hit "Apply" to lock in the settings.
+
+4. Setting Up the Estate Server
+I brought an estate server into the workspace from the "Servers" category and connected it to the switch. To do this, I clicked on the estate server, selected the "Connections" tab, and linked its Ethernet port to an Ethernet port on the switch.
+
+5. Configuring the Estate Server
+The estate server was then set up to control and manage data from IoT devices. I installed necessary software, such as MySQL or PostgreSQL, and configured it to handle data storage for IoT devices on the network.
+
+6. Adding Access Points
+I added three access points labeled "Management," "Maintenance," and "Residence" from the "Wireless Devices" category.
+
+7. Connecting Access Points to the Network
+Each access point was linked to the switch by selecting its "Connections" tab and connecting its Ethernet port to one of the switch’s Ethernet ports.
+
+8. Configuring the Access Points
+I set up each access point to allow remote access to the IoT devices by configuring wireless settings like SSID, encryption, and password.
+
+9. Adding a Cell Tower
+Next, I dragged a cell tower from the "End Devices" category into the workspace and connected it to the switch by linking its Ethernet port to one of the switch’s Ethernet ports.
+
+10. Configuring the Cell Tower
+The cell tower was set up to provide mobile connectivity to smartphones by configuring cellular settings, such as carrier, frequency band, and access point name.
+
+11. Testing the Network
+Finally, I tested the network by connecting IoT devices, smartphones, and other devices to the access points, making sure they could all communicate with the estate server and interact seamlessly.
+
+And there it is—a fully functional "Estate Residence Network" complete with a secure switch, a data-storing server, access points for various estate zones, and mobile connectivity from a cell tower, all set up to support IoT devices and more.
+
+
+
+#ph1n3y

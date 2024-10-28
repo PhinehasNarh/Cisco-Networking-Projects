@@ -1,0 +1,80 @@
+MAN Network Documentation
+
+Project Overview
+
+This documentation provides an overview of the Metropolitan Area Network (MAN) setup, connecting multiple critical and residential networks across the metropolitan area. The MAN connects state security, corporate, residential, and academic institutions to ensure seamless communication, centralized management, and data sharing between these interconnected sites.
+
+
+Network Components
+
+The MAN network consists of the following interconnected nodes:
+
+State Security Network: Provides secure connections for police and intelligence services with shared access to government databases.
+
+Phinehas & Parker Residence Network: A residential network with access points for both personal devices and IoT applications.
+
+Vodafone Ghana (Telecommunications): Includes central office servers, cell towers, and client departments.
+
+Accra Technical University Network: A university campus network with VLANs, central routing, and departmental access.
+
+Legon University Network: Contains various academic department networks, server access, and student dormitory connectivity.
+
+Residential Estate Network: Features access points, a central server, and various IoT-connected devices.
+
+
+Objectives
+
+The MAN aims to:
+
+-Facilitate secure, high-speed communication across all included networks.
+-Centralize services like email, DNS, web hosting, and cloud resources.
+-Enhance collaboration among state security, academic, and corporate entities.
+-Provide secure network access, segmentation, and resource allocation to connected nodes.
+
+
+Network Architecture
+
+Main Router and Backbone: The core of the MAN is a high-capacity router, providing a central backbone to link all networks. Each site connects through dedicated fiber optic links, ensuring stable, high-speed connectivity.
+
+Security Protocols: All networks within the MAN are encrypted, with firewall configurations to control access between departments and sensitive resources.
+
+Interconnected Subnets: Each institution operates on separate subnets, with controlled access points to enable inter-network communication and protect individual networks.
+
+
+
+Configuration Steps
+
+1. Setting Up Core Connectivity
+Configure the main MAN router to handle data flows between connected sites.
+Assign IP ranges and VLANs to each node, separating traffic per institution or department.
+
+2. Configuring Each Network Node
+State Security: Link police and intelligence departments to a shared database server, ensuring robust security and access restrictions.
+Phinehas & Parker Residence: Connect IoT devices, access points, and personal devices securely to a central switch, establishing proper SSIDs for Wi-Fi access.
+
+
+Vodafone Ghana: Integrate central office servers, cell tower connections, and department-specific VLANs to the MAN, ensuring firewall protection and encrypted data flow.
+
+Accra Technical University: Link VLAN-configured multi-layer switches for each department and provide centralized internet access through the MAN backbone.
+
+Legon University: Set up access for academic departments and student networks, connecting to cloud servers for educational resources and web hosting.
+
+Residential Estate Network: Establish access points for home devices, IoT applications, and secure connections to shared residential servers.
+
+3. Testing and Validation
+
+-Test inter-network communication, confirming each site can access shared services as needed.
+-Validate security measures on each node, ensuring only authorized access between subnets.
+-Run performance tests to verify consistent data flow and minimal latency across nodes.
+
+
+Security Measures
+
+-Firewall and ACL Configuration: Implement Access Control Lists on the MAN backbone and routers to control inter-network access and enhance security.
+-Encryption Protocols: Utilize SSL/TLS and WPA2 for all device connections, particularly on access points.
+-Authentication: Configure passwords and user authentication at each network entry point.
+
+
+Conclusion
+
+This MAN setup provides a stable, secure, and scalable network solution, fostering communication, resource sharing, and operational security across multiple entities within the metropolitan area. With regular monitoring and updates, the network will support seamless connectivity and growth for the connected institutions.

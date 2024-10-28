@@ -1,0 +1,24 @@
+Welcome to my Cisco Packet Tracer project on designing a university campus network! In this project, I created a comprehensive network with a main router, access points for both boys’ and girls’ residence halls, and academic departments spanning computer science, engineering, mathematics, vocational skills, medical and lab sciences, and business and arts. Additionally, I set up a server for email, DNS, and web services.
+
+Here’s how I built it:
+
+Step 1: Creating the Network Topology
+I began by setting up the network topology. I added a main router and connected it to the internet, then placed access points in both boys’ and girls’ hotels, connecting each to the main router. Switches were added to the setup, allowing seamless connections between the router and the access points.
+
+Step 2: Setting Up the Academic Departments
+With the main structure in place, I configured the academic departments. Each department received its own switch, linked directly to the main router. Then, I created individual subnets for each department, covering computer science, engineering, mathematics, vocational skills, medical and lab sciences, and business and arts, and assigned IP addresses to all devices within these subnets.
+
+Step 3: Adding the Server
+Next, I introduced a multi-purpose server to handle email, DNS, and web functionalities. After assigning it an IP address, I connected the server to the main router, giving the entire campus secure, centralized access to essential services.
+
+Step 4: Connecting Departments to the Network
+Once each department was configured, I connected them to the network by assigning each to its respective subnet. Switches were placed in each department, and I linked all PCs and laptops to these switches, ensuring every device was network-ready.
+
+Step 5: Testing the Network
+To wrap things up, I tested the network to verify everything was working smoothly. I confirmed that each department could communicate with others and that all devices could reach the server and access the internet. Finally, I checked the email, DNS, and web services to ensure full functionality.
+
+In the end, I successfully designed a fully operational university campus network! With a main router, secure access points, dedicated department networks, and a server for email, DNS, and web services, this setup is ready for seamless campus-wide communication and functionality.
+
+
+
+#ph1n3y

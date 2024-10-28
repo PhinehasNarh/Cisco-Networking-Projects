@@ -1,0 +1,27 @@
+Welcome to my Cisco Packet Tracer project on designing dual state security networks for the police service and intelligence service! In this project, I crafted two separate networks, one for each agency, and connected them to a shared government database housing email, web, and DNS servers. Each department within both agencies was outfitted with two PCs, a printer, an access point, and a smart device like a smartphone, laptop, or tablet.
+
+Here’s the journey step-by-step:
+
+Step 1: Building the Police Service Network
+I started by creating the police service network. First, I added a router and connected it to the internet. Then, I set up subnets for each department within the police agency, assigning IP addresses to each device. I also added access points, along with smart devices, PCs, and printers to each department, bringing the network to life.
+
+Step 2: Setting Up the Intelligence Service Network
+Next, I created the intelligence service network, following the same structure as I did for the police service network. I built subnets for each department, assigned IP addresses to every device, and added access points, smart devices, PCs, and printers to keep everything connected and secure.
+
+Step 3: Linking the Two Networks
+Once both networks were ready, I connected them using a router. I assigned IP addresses to the router and each interface connected to the networks, configuring the router to allow communication between both agencies' networks.
+
+Step 4: Connecting to the Government Database
+After linking the networks, I connected both to a shared government database containing email, web, and DNS servers. I assigned IP addresses to the servers and connected them to the router, enabling access to essential resources across both networks.
+
+Step 5: Securing the Networks
+Security time! I configured firewalls on the router to block unauthorized access. On top of that, I added passwords to each device for an extra layer of security, ensuring each network remained safe and secure.
+
+Step 6: Testing the Network
+Finally, I tested the entire setup. I verified that each department in both agencies could communicate internally and externally and confirmed that all devices could access the shared government database. I also tested the security configurations to make sure everything worked as planned.
+
+And there it is! I successfully designed two robust state security networks for the police service and intelligence service, linked to a shared government database complete with email, web, and DNS servers. Each department is outfitted with PCs, printers, access points, and smart devices, all secured with multiple layers to keep the data safe and accessible.
+
+
+
+#ph1n3y

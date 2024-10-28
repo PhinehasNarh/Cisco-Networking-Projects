@@ -1,0 +1,27 @@
+Welcome to my Cisco Packet Tracer project on designing a residence network! This project involved setting up a streamlined network with a provider server, one PC, a switch, and two access points. One access point manages a smartphone and a laptop, while the other handles IoT devices like a coffee machine, fan, garage door, and lights—all secured with a password-protected server.
+
+Here’s how I pulled it all together:
+
+Step 1: Setting Up the Network Provider Server
+I kicked things off by setting up the network provider server. I added a server to the workspace, connected it to the internet, assigned it an IP address, and set up a secure password to keep the network safe.
+
+Step 2: Connecting the PC to the Switch
+Next, I brought in a PC and connected it to the switch. After assigning the PC an IP address, I configured it to use the server's IP address as the default gateway, keeping everything neatly connected.
+
+Step 3: Configuring the Access Points
+With the basics in place, I added two access points to the workspace and connected them to the switch. I set up one access point to manage the smartphone and laptop, while the other handled all the IoT devices. Each access point was given a unique SSID and password to maintain secure connections.
+
+Step 4: Connecting the Devices
+Then, I connected the devices to their designated access points. The smartphone and laptop were linked to the access point assigned to them, while IoT devices like the coffee machine, fan, garage door, and lights were connected to the IoT access point.
+
+Step 5: Securing the Network
+Security was essential! I configured passwords for both access points, and I secured the server to ensure only authorized users could connect to the network.
+
+Step 6: Testing the Network
+Finally, it was time to test everything. I connected to the network using the smartphone and laptop to confirm internet access. I also tested each IoT device to make sure they were fully functional and responsive to controls.
+
+In the end, I successfully designed a well-secured residence network with a network provider server, one PC linked to a switch, and two access points managing both personal and IoT devices. The entire setup, from internet access to IoT controls, worked seamlessly and securely.
+
+
+
+#ph1n3y
