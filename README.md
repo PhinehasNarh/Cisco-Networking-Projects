@@ -1,9 +1,9 @@
-
-
 # 🕸️ Network Design Adventures!
 
 ## 🚀 Project Overview
 Welcome to my collection of network design journeys, crafted with Cisco Packet Tracer and a little sprinkle of tech wizardry! Here, you'll find a mix of campus, residential, and high-security networks, each with its own unique setup. Think of this as a sampler of network awesomeness—whether it's connecting IoT coffee machines or building firewalls around sensitive state data, there's something here for every network enthusiast.
+
+## NOTE: Each .pkt file includes a corresponding documentation file with the same name, so you’ll have a detailed guide right at your fingertips for every network design.
 
 ## 🖥️ Networks Included
 1. **🎓 University Campus Network**:
