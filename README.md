@@ -18,7 +18,7 @@ Welcome to my collection of network design journeys, crafted with Cisco Packet T
    - Two exclusive networks crafted for Police and Intelligence agencies, connected to a government database.
    - Equipped with access points, PCs, smart devices, and high-level security, keeping things confidential and controlled.
 
-4. **🏠 Phinehas & Parker Residence Network**:
+4. **🏠 Phinehas Residence Network**:
    - The ultimate residential network for managing IoT devices, with a secure residence server and two access points.
    - Handles everything from coffee makers to fans, with password-protected fun and a secure firewall in the mix.
 
